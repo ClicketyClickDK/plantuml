@@ -1,0 +1,78 @@
+# PlantUML Cheatsheet
+
+
+## Icons
+
+[The Standard Library](http://plantuml.com/stdlib) includes a variety of icons
+
+
+
+
+
+[Open Iconic](https://useiconic.com/open/) is supported out of the box. Any icon can be rendered by embedding into <&..>.
+
+```
+card "<&key> key"
+card "<size:42><&wrench></size>"
+```
+
+
+Icons can be shown as icon only by disabling the border and background styles.
+```
+skinparam cardBorderColor none
+skinparam cardBackgroundColor none
+skinparam cardShadowing false
+```
+
+## Sprites
+
+```
+' 32x32 byte in 16 gray colors
+sprite $businessProcess [32x32/16] {
+00000000000000000000000000000000
+000000000FFFFFFFFFFFFFFFFFFFFFF0
+000000000F00000000000000000000F0
+000000000F00000000000000000000F0
+000000000F00000000000000000000F0
+000000000F00000000000000000000F0
+D00D0D000F00000555500055550000F0
+000000000F00005555550555555000F0
+000000000F00005555550555555000F0
+000000000F000055FFFF0FFFF55000F0
+000000000F000055FFFF0FFFF55000F0
+000000000F000055FFFFFFFFF55000F0
+000000000F00000FFFFFFFFFFF0000F0
+D00D0D000F00FF00FFFFFFFFF00FF0F0
+000000000F0000F00000000000F000F0
+000000000F00000FFFFFFFFFFF0000F0
+000000000F00000000000000000000F0
+000000000F00000000000000000000F0
+000000000FFFFFFFFFFFFFFFFFFFFFF0
+00000000000000000000000000000000
+000000000FFFFFFFFFFFFFFFFFFFFFF0
+000000000F00000000000000000000F0
+000000000F00000000000666666600F0
+000000000F00000000000666666600F0
+0D0D00D00F00000000000000000000F0
+000000000F00777770000000000000F0
+000000000F00FFF0000000000FFF00F0
+000000000FFFFFFFFFFFFFFFFFFFFFF0
+0D0D0DD0000FFF0FF000000FFF0FF000
+00000000000FFFFFF000000FFFFFF000
+000000000000FFFF00000000FFFF0000
+00000000000000000000000000000000
+}
+
+' Example
+rectangle " End to End\nbusiness process" <<$businessProcess>> {
+    rectangle "inner process 1" <<$businessProcess>> as src
+    rectangle "inner process 2" <<$businessProcess>> as tgt
+    src -> tgt
+}
+```
+
+ ## References
+
+- [ultimate PlantUML Cheatsheet](https://blog.anoff.io/puml-cheatsheet.pdf) / [Andreas Offenhaeuser](http://anoff.io/)
+- [Office Icons for PlantUML](https://github.com/Roemer/plantuml-office) / [Roman Roemer](https://github.com/Roemer)
+
