@@ -10,6 +10,7 @@ skinparam cardBorderColor none
 skinparam cardBackgroundColor none
 skinparam cardShadowing false
 
+rectangle "Concept Model" <<Concept>> {
 card "<size:42><&account-login></size>\naccount-login"
 card "<size:42><&account-logout></size>\naccount-logout"
 card "<size:42><&action-redo></size>\naction-redo"
@@ -19,6 +20,8 @@ card "<size:42><&align-left></size>\nalign-left"
 card "<size:42><&align-right></size>\nalign-right"
 
 card "<size:42><&aperture></size>\naperture"
+}
+
 card "<size:42><&arrow-bottom></size>\narrow-bottom"
 card "<size:42><&arrow-circle-bottom></size>\narrow-circle-bottom"
 card "<size:42><&arrow-circle-left></size>\narrow-circle-left"
