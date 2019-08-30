@@ -10,7 +10,7 @@ skinparam cardBorderColor none
 skinparam cardBackgroundColor none
 skinparam cardShadowing false
 
-rectangle "Concept Model" <<Concept>> {
+rectangle "Concept Model" {
 card "<size:42><&account-login></size>\naccount-login"
 card "<size:42><&account-logout></size>\naccount-logout"
 card "<size:42><&action-redo></size>\naction-redo"
@@ -22,6 +22,7 @@ card "<size:42><&align-right></size>\nalign-right"
 card "<size:42><&aperture></size>\naperture"
 }
 
+rectangle "Concept Model2" {
 card "<size:42><&arrow-bottom></size>\narrow-bottom"
 card "<size:42><&arrow-circle-bottom></size>\narrow-circle-bottom"
 card "<size:42><&arrow-circle-left></size>\narrow-circle-left"
@@ -34,6 +35,9 @@ card "<size:42><&arrow-thick-left></size>\narrow-thick-left"
 card "<size:42><&arrow-thick-right></size>\narrow-thick-right"
 card "<size:42><&arrow-thick-top></size>\narrow-thick-top"
 card "<size:42><&arrow-top></size>\narrow-top"
+}
+
+rectangle "Concept Model3" {
 card "<size:42><&audio></size>\naudio"
 card "<size:42><&audio-spectrum></size>\naudio-spectrum"
 card "<size:42><&badge></size>\nbadge"
@@ -55,6 +59,9 @@ card "<size:42><&british-pound></size>\nbritish-pound"
 card "<size:42><&browser></size>\nbrowser"
 card "<size:42><&brush></size>\nbrush"
 card "<size:42><&bug></size>\nbug"
+}
+
+rectangle "Concept Model4" {
 card "<size:42><&bullhorn></size>\nbullhorn"
 card "<size:42><&calculator></size>\ncalculator"
 card "<size:42><&calendar></size>\ncalendar"
@@ -74,6 +81,9 @@ card "<size:42><&circle-check></size>\ncircle-check"
 card "<size:42><&circle-x></size>\ncircle-x"
 card "<size:42><&clipboard></size>\nclipboard"
 card "<size:42><&clock></size>\nclock"
+}
+
+rectangle "Concept Model5" {
 card "<size:42><&cloud></size>\ncloud"
 card "<size:42><&cloud-download></size>\ncloud-download"
 card "<size:42><&cloud-upload></size>\ncloud-upload"
@@ -91,6 +101,9 @@ card "<size:42><&contrast></size>\ncontrast"
 card "<size:42><&copywriting></size>\ncopywriting"
 card "<size:42><&credit-card></size>\ncredit-card"
 card "<size:42><&crop></size>\ncrop"
+}
+
+rectangle "Concept Model6" {
 card "<size:42><&dashboard></size>\ndashboard"
 card "<size:42><&data-transfer-download></size>\ndata-transfer-download"
 card "<size:42><&data-transfer-upload></size>\ndata-transfer-upload"
@@ -109,6 +122,9 @@ card "<size:42><&ellipses></size>\nellipses"
 card "<size:42><&envelope-closed></size>\nenvelope-closed"
 card "<size:42><&envelope-open></size>\nenvelope-open"
 card "<size:42><&euro></size>\neuro"
+}
+
+rectangle "Concept Model7" {
 card "<size:42><&excerpt></size>\nexcerpt"
 card "<size:42><&expand-down></size>\nexpand-down"
 card "<size:42><&expand-left></size>\nexpand-left"
@@ -127,6 +143,10 @@ card "<size:42><&fullscreen-enter></size>\nfullscreen-enter"
 card "<size:42><&fullscreen-exit></size>\nfullscreen-exit"
 card "<size:42><&globe></size>\nglobe"
 card "<size:42><&graph></size>\ngraph"
+}
+
+rectangle "Concept Model8" {
+
 card "<size:42><&grid-four-up></size>\ngrid-four-up"
 card "<size:42><&grid-three-up></size>\ngrid-three-up"
 card "<size:42><&grid-two-up></size>\ngrid-two-up"
@@ -159,6 +179,10 @@ card "<size:42><&loop-circular></size>\nloop-circular"
 card "<size:42><&loop-square></size>\nloop-square"
 card "<size:42><&magnifying-glass></size>\nmagnifying-glass"
 card "<size:42><&map></size>\nmap"
+}
+
+rectangle "Concept Model9" {
+
 card "<size:42><&map-marker></size>\nmap-marker"
 card "<size:42><&media-pause></size>\nmedia-pause"
 card "<size:42><&media-play></size>\nmedia-play"
@@ -237,4 +261,5 @@ card "<size:42><&x></size>\nx"
 card "<size:42><&yen></size>\nyen"
 card "<size:42><&zoom-in></size>\nzoom-in"
 card "<size:42><&zoom-out></size>\nzoom-out"
+}
 @enduml
