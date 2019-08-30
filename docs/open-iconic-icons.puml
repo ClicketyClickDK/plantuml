@@ -3,8 +3,7 @@ title
   <i>Standard icons</u> from [Open Iconic](https://useiconic.com/open/)
 end title
 
-scale max 1024 width
-set PLANTUML_LIMIT_SIZE=8192
+'scale max 1024 width
 
 ' Removing color and border from cards
 skinparam cardBorderColor none
