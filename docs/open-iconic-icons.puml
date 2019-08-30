@@ -31,9 +31,7 @@ card "<size:42><&arrow-thick-left></size>\narrow-thick-left"
 card "<size:42><&arrow-thick-right></size>\narrow-thick-right"
 card "<size:42><&arrow-thick-top></size>\narrow-thick-top"
 card "<size:42><&arrow-top></size>\narrow-top"
-}
 
-rectangle "Concept Model3" {
 card "<size:42><&audio></size>\naudio"
 card "<size:42><&audio-spectrum></size>\naudio-spectrum"
 card "<size:42><&badge></size>\nbadge"
