@@ -199,6 +199,9 @@ card "<size:42><&minus></size>\nminus"
 card "<size:42><&monitor></size>\nmonitor"
 card "<size:42><&moon></size>\nmoon"
 card "<size:42><&move></size>\nmove"
+}
+
+rectangle "Concept Model A" {
 card "<size:42><&musical-note></size>\nmusical-note"
 card "<size:42><&paperclip></size>\npaperclip"
 card "<size:42><&pencil></size>\npencil"
@@ -218,6 +221,9 @@ card "<size:42><&question-mark></size>\nquestion-mark"
 card "<size:42><&rain></size>\nrain"
 card "<size:42><&random></size>\nrandom"
 card "<size:42><&reload></size>\nreload"
+}
+
+rectangle "Concept Model B" {
 card "<size:42><&resize-both></size>\nresize-both"
 card "<size:42><&resize-height></size>\nresize-height"
 card "<size:42><&resize-width></size>\nresize-width"
@@ -238,6 +244,9 @@ card "<size:42><&tablet></size>\ntablet"
 card "<size:42><&tag></size>\ntag"
 card "<size:42><&tags></size>\ntags"
 card "<size:42><&target></size>\ntarget"
+}
+
+rectangle "Concept Model C" {
 card "<size:42><&task></size>\ntask"
 card "<size:42><&terminal></size>\nterminal"
 card "<size:42><&text></size>\ntext"
